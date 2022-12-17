@@ -23,8 +23,9 @@ This allowed me to interact with the HTTP API service and the model by sending d
 5. Swagger Documentation :  I downloaded *swagger.json* and ran both *swagger.json* and *serve.py*. I interacted
 with the swagger instance running with the documentation for the HTTP API for the model.
 6. Consume model endpoints : I successfully demonstrated the model was consumable by modifying and running *endpoint.py*.
-7. Create and publish a pipeline : I uploaded and updated the jupyter notebook provided to match the environment.
-8. Documentation:
+7. Create and publish a pipeline : I uploaded and updated the jupyter notebook provided to match the environment. I 
+demonstrated it was running successfully.
+8. Documentation: I documented my steps and results in this readme.
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
