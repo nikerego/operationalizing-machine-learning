@@ -1,5 +1,3 @@
-import os
-
 import requests
 import json
 from os import getenv
@@ -7,6 +5,7 @@ from os import getenv
 # URL for the web service, should be similar to:
 # 'http://8530a665-66f3-49c8-a953-b82a2d312917.eastus.azurecontainer.io/score'
 scoring_uri = getenv('SCORING_URI')
+
 # If the service is authenticated, set the key or token
 key = getenv('API_KEY')
 
@@ -67,9 +66,8 @@ with open("data.json", "w") as _f:
     _f.write(input_data)
 
 # Set the content type
-headers = {'Content-Type': 'application/json'}
+headers = {'Content-Type': 'application/json', 'Authorization': f'Bearer {key}'}
 # If authentication is enabled, set the authorization header
-headers['Authorization'] = f'Bearer {key}'
 
 # Make the request and display the response
 resp = requests.post(scoring_uri, input_data, headers=headers)

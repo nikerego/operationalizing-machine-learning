@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b04cf231-3565-43d3-89d0-5b0a0e369cfa" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/endpoint.py" beforeDir="false" afterPath="$PROJECT_DIR$/endpoint.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/swagger/swagger.sh" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/swagger.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Service_Principal_Creation.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Step1-ServicePrincipalCreation.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Step 2 - Best Model 1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Step 2 - Best Model 2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Step 2 - Experiment Complete.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Step 2 - Registered Dataset.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Step 4 - Application Insights Enabled.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/Step 4 - Running Logs.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/Step4-RunningLogs.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swagger/swagger.json" beforeDir="false" afterPath="$PROJECT_DIR$/swagger/swagger.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,12 +32,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/images" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/Users/regon/Documents/Projects/operationalizing-machine-learning",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
